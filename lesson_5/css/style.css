@@ -1,0 +1,147 @@
+@import url("reset.css");
+
+.container {
+    width: 1200px;
+    margin: 24px auto;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.parent_1 {
+    font-size: 0;
+    margin-bottom: -10px;
+    background-color: aqua;
+}
+
+.child_1 {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    outline: 2px solid black;
+    font-size: 20px;
+    padding: 24px;
+}
+
+.parent_2 {
+    display: inline-block;
+    font-size: 0;
+    margin-bottom: -10px;
+    background-color:lawngreen
+}
+
+.child_2_1, .child_2_2 {
+    display: inline-block;
+    vertical-align: top;
+    outline: 2px solid black;
+}
+
+.child_2_1 {
+    width: 800px;
+    outline: 2px solid black;
+}
+
+.child_2_2 {
+    width: 400px;
+    outline: 2px solid black;
+}
+
+.child_2_1 > div {
+    height: 200px;
+    outline: 2px solid black;
+    font-size: 20px;
+    padding: 24px;
+}
+
+.child_2_2 > div {
+    height: 133.33px;
+    outline: 2px solid black;
+    font-size: 20px;
+    padding: 24px;
+}
+
+.parent_3 {
+    display: inline-block;
+    font-size: 0;
+    background-color:darkorange
+}
+
+.child_3_1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    height: 400px;
+    outline: 2px solid black;
+    font-size: 20px;
+    padding: 24px;
+}
+
+.child_3_2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 800px;
+    height: 400px;
+    outline: 2px solid black;
+    font-size: 0px;
+}
+
+.child_3_2_1 {
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    outline: 2px solid black;
+    font-size: 20px;
+    padding: 24px;
+}
+
+.child_3_2_2 {
+    display: inline-block;
+    width: 800px;
+    height: 200px;
+    vertical-align: top;
+    font-size: 0px;
+}
+
+.child_3_2_2_1 {
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 400px;
+    outline: 2px solid black;
+    font-size: 20px;
+    padding: 24px;
+}
+
+.child_3_2_2_2 {
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    outline: 2px solid black;
+    font-size: 20px;
+}
+
+.child_3_2_2_2_1 {
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    outline: 2px solid black;
+    font-size: 20px;
+    padding: 24px;
+}
+
+.child_3_2_2_2_2 {
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    outline: 2px solid black;
+    font-size: 20px;
+    padding: 24px;
+}
+
+
+
+
